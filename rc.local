@@ -14,7 +14,7 @@
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
-  python /home/pi/Desktop/network_accessible.py
+  python /home/pi/Desktop/network_LED_on.py
   printf "My IP address is %s\n" "$_IP"
 fi
 
