@@ -17,4 +17,3 @@ Edit the necessary config files
 3. Edit the dhcp config file with: sudo nano /etc/dhcp/dhcp.conf and replace with the dhcpd.conf file from the repository
 4. Edit the rc.local file with sudo nano /etc/rc.local and replace with the rc.local file in the repository
 
-This should be
